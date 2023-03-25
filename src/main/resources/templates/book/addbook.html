@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+
+<style>
+p {
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	/* Height of the footer*/
+	height: 80px;
+	background: grey;
+}
+</style>
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+
+<!-- JavaScript Bundle with Popper -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+	integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+
+	<header class="bg-violet-300">
+		<div
+			class="container mx-auto py-4 px-5 flex flex-wrap items-center justify-between">
+			<a href="#" class="flex items-center"> <span
+				class="font-bold text-xl text-gray-900"> <i
+					class="fa-solid fa-book fa-2xl"></i>
+			</span>
+			</a>
+			<div class="flex items-center">
+				<nav class="text-gray-60 font-medium" th:each="s :${std}">
+					RegdId :
+					<td th:text="${s.regdId}"></td> , Name :
+					<td th:text="${s.firstName}"></td>
+
+				</nav>
+			</div>
+			<div class="flex items-center">
+				<nav class="text-gray-60 font-medium">
+					<a href="/admin/home" class="mx-3 py-2 hover:text-gray-900">Home</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<br />
+	<br />
+
+	<h3 class="d-flex justify-content-center h2">Borrow The Book</h3>
+
+
+	<div class="container">
+
+		<form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+			th:object="${book}" th:action="@{/book/savebook}" method="post">
+			<div class="mb-4">
+				<label class="block text-gray-700 font-bold mb-2" for="bookName">
+				</label>
+				<tr th:each="s :${std}">
+					<input
+						class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+						id="regdId" type="text" th:name="regdId" th:value="${s.regdId}"
+						required>
+				</tr>
+			</div>
+			<div class="mb-4">
+				<label class="block text-gray-700 font-bold mb-2" for="bookName">
+					Book Name </label> <input
+					class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+					id="bookName" type="text" placeholder="Enter book name"
+					th:field="*{bookName}" required>
+			</div>
+			<div class="mb-4">
+				<label class="block text-gray-700 font-bold mb-2" for="issuDateTime">
+					Issue Date Time </label> <input
+					class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+					id="issuDateTime" type="datetime-local"
+					placeholder="Enter issue date and time" th:field="*{issuDateTime}"
+					required>
+			</div>
+			<div class="mb-4">
+				<!--   <label class="block text-gray-700 font-bold mb-2" for="returnDateTime">
+      Return Date Time
+    </label> -->
+				<input
+					class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+					id="returnDateTime" type="hidden"
+					placeholder="Enter return date and time"
+					th:field="*{returnDateTime}">
+			</div>
+			<div class="flex items-center justify-between">
+				<button
+					class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+					type="submit">Submit</button>
+			</div>
+		</form>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<br />
+
+
+
+
+
+
+
+
+	<footer class="bg-purple-100 py-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>@saumyaranajn</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+</html>
