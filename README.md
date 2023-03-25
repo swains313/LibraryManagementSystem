@@ -1,13 +1,14 @@
 # LibraryManagementSystem
-ADMIN VIEW
-![Screenshot 2023-03-25 at 12 23 31 PM](https://user-images.githubusercontent.com/68143654/227705056-f36e5cd3-8b78-4410-8d5c-67322003e0e3.png)
-![Screenshot 2023-03-25 at 12 21 35 PM](https://user-images.githubusercontent.com/68143654/227705038-3a4a20c3-e0a9-4637-9294-1cbb2d88fd72.png)
-![Screenshot 2023-03-25 at 12 21 43 PM](https://user-images.githubusercontent.com/68143654/227705045-cb7fc7da-a7a4-4a87-b9a4-fca046a63fdd.png)
-![Screenshot 2023-03-25 at 12 21 52 PM](https://user-images.githubusercontent.com/68143654/227705048-d56f9dfd-6270-44fb-97c7-df9f86f28c87.png)
-![Screenshot 2023-03-25 at 12 23 24 PM](https://user-images.githubusercontent.com/68143654/227705052-d4db839e-02e5-4354-894b-c867a95da783.png)
+![Screenshot 2023-03-25 at 12 23 31 PM](https://user-images.githubusercontent.com/68143654/227732424-849ec601-4b21-4f86-9713-bb8e4b19f63b.png)
+
+![Screenshot 2023-03-25 at 12 21 35 PM](https://user-images.githubusercontent.com/68143654/227732395-f4550990-e7fb-466c-9d97-32eba6a0031d.png)
+![Screenshot 2023-03-25 at 12 21 43 PM](https://user-images.githubusercontent.com/68143654/227732401-930da35a-753e-49a4-80ed-7dfd361980f3.png)
+![Screenshot 2023-03-25 at 12 21 52 PM](https://user-images.githubusercontent.com/68143654/227732406-0f0cbfba-7ac4-45d0-94d5-b558414e12ff.png)
+![Screenshot 2023-03-25 at 12 23 24 PM](https://user-images.githubusercontent.com/68143654/227732411-2ab1ec84-b176-43a9-a0f5-db5c2925a296.png)
 
 USER VIEW
-![Screenshot 2023-03-25 at 12 23 48 PM](https://user-images.githubusercontent.com/68143654/227705066-9ae98b2a-901b-4005-9ff9-c1f4e67600d9.png)
-![Screenshot 2023-03-25 at 12 23 55 PM](https://user-images.githubusercontent.com/68143654/227705071-a29a0ff9-2c9c-4159-8fc9-89804fec86f0.png)
-![Screenshot 2023-03-25 at 12 24 03 PM](https://user-images.githubusercontent.com/68143654/227705076-6df7facc-0190-4e86-ad72-6de0200d6eb2.png)
-![Screenshot 2023-03-25 at 12 24 03 PM](https://user-images.githubusercontent.com/68143654/227705082-c2bc60b1-12db-47bf-8a14-77efac45728b.png)
+![Screenshot 2023-03-25 at 12 23 48 PM](https://user-images.githubusercontent.com/68143654/227732442-560ecd92-2383-4265-9221-708736971572.png)
+![Screenshot 2023-03-25 at 12 23 55 PM](https://user-images.githubusercontent.com/68143654/227732448-991fa497-f836-48c1-8650-ca2c0f4d2e63.png)
+![Screenshot 2023-03-25 at 12 24 03 PM](https://user-images.githubusercontent.com/68143654/227732455-b1f02841-a563-405e-9d9e-fd0ec725f1cf.png)
+![Screenshot 2023-03-25 at 12 24 10 PM](https://user-images.githubusercontent.com/68143654/227732464-d41f82c3-a62f-4151-961f-9aab82d803d0.png)
+
